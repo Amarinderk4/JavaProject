@@ -10,11 +10,22 @@ public class AccountMain {
 		Scanner sc=new Scanner(System.in);
 		ar.balanceAmount=5430.54;
 		ar.overdraftAmount=1000;
-		System.out.println("Enter the amount to withdraw");
-		ar.withdrawAmount=sc.nextInt();
-		ar.atmWithdrawl();
+		ar.pinNo=1234;
 		
+		System.out.println("Enter the pin number");
+		
+		ar.enteredPin= sc.nextInt();
+
+		System.out.println("Enter the amount to withdraw");
+		
+		ar.withdrawAmount=sc.nextInt();
+		
+	    ar.validatePinWithdrawlCash();
+		
+		ar.atmWithdrawl();
+		sc.close();
+	}
 
 	}
 
-}
+
