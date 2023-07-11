@@ -8,16 +8,19 @@ public class WaterTank {
 
 	int tankCapacity;
 	int bucketCapacity;
+	int currentLevel;
 
-	void validateWaterCap() {
+	void validateWaterCapacity() {
 
-		while (bucketCapacity <= tankCapacity) {
-			if (bucketCapacity == tankCapacity) {
+		while (currentLevel + bucketCapacity <= tankCapacity) {
+			bucketCapacity += 10;
+
+			System.out.println("Total tank filled is : " + bucketCapacity);
+
+			if (currentLevel + bucketCapacity == tankCapacity) {
+
 				break;
 			}
-			System.out.println(bucketCapacity);
-
-			bucketCapacity += 10;
 
 		}
 
