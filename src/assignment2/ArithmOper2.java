@@ -4,6 +4,7 @@ public class ArithmOper2 {
 	
 	double no1= 22.5;
 	double no2=12.5;
+	double no3=45;
 	double sum,sub,mul,div,mod;
 	
 	
@@ -28,7 +29,9 @@ public class ArithmOper2 {
 		
 		
 	}
-	
-
+	void sumaddNumber() {
+		sum=no1+no2+no3;
+		System.out.println("Addition of " +no1+ " and  " +no2+ " is " +sum);
+		}
 
 }
