@@ -8,7 +8,7 @@ public class ArithMain {
 		ao2.addNumbers();
 		ao2.subNumbers();
 		ao2.mulNumbers();
-		ao2.divNumbers();
+		
 		
 		System.out.println("Reassigning the values******");
 		 ao2.no1=15.3;
@@ -16,7 +16,7 @@ public class ArithMain {
 		 ao2.addNumbers();
 			ao2.subNumbers();
 			ao2.mulNumbers();
-			ao2.divNumbers();
+			
 			
 			System.out.println("Reassigning the values again*****************");
 			 ao2.no1=35.3;
@@ -24,7 +24,7 @@ public class ArithMain {
 			 ao2.addNumbers();
 				ao2.subNumbers();
 				ao2.mulNumbers();
-				ao2.divNumbers();
+				
 		
 			
 		

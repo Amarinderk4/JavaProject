@@ -22,21 +22,6 @@ public class ArithmOper2 {
 		mul=no1*no2;
 		System.out.println("Multiplication of " +no1+ " and " +no2+ " is " +mul);
 	}
-	void divNumbers() {
-		div=no1/no2;
-		System.out.println("quotient of " +no1+ " and " +no2+ " is " +div);
-		mod=no1%no2;
-		System.out.println("remainder of " +no1+ " and " +no2+ " is " +mod);
-		
-		
-	}
-	void sumaddNumber() {
-		sum=no1+no2+no3;
-		System.out.println("Addition of " +no1+ " and  " +no2+ " is " +sum);
-		}
-	void sumaddNumber1() {
-		sum=no1+no2+no3+no4;
-		System.out.println("Addition of " +no1+ " and  " +no2+ " is " +sum);
-		}
-
+	
+	
 }
