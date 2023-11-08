@@ -20,11 +20,7 @@ public class LaptopMain {
 		asus.storageCapacity="64GB";
 		asus.isCameraPresent=true;
 		
-		//calling the method
-		hp.sendEmail();
-		hp.takePictures();
-		asus.sendEmail();
-		asus.takePictures();
+		
 		
 	
 
