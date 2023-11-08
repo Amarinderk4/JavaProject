@@ -14,9 +14,7 @@ public class Laptop {
 		System.out.println(" I am Taking Picutres from" +laptopName+processor);
 	}
 	
-	void sendEmail() {
-		System.out.println("I can send emails from" +laptopName);
-	}
+	
 	
 	
 
